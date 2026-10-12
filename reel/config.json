@@ -1,0 +1,56 @@
+{
+  "_comment": "Single source of truth for every word, number and timing in the reel. Edit here, then re-run `python3 reel/render.py`.",
+  "video": { "width": 1080, "height": 1920, "fps": 30, "duration": 15.0 },
+
+  "brand": {
+    "dealer": "AUTO SCAN HONDA",
+    "city": "MUNGER",
+    "phone": "9546036233"
+  },
+
+  "colors": {
+    "red": "#D7141A",
+    "red_dark": "#7A0A0E",
+    "black": "#0A0A0C",
+    "charcoal": "#17181C",
+    "white": "#FFFFFF",
+    "grey": "#9A9DA4",
+    "whatsapp": "#25D366"
+  },
+
+  "scenes": {
+    "hook":     { "start": 0.0,  "end": 3.0 },
+    "models":   { "start": 3.0,  "end": 10.0 },
+    "cta":      { "start": 10.0, "end": 15.0, "endcard_at": 11.2 }
+  },
+
+  "text": {
+    "hook": { "pre": "SIRF", "price": "₹4,999", "line1": "DOWN PAYMENT MEIN", "line2": "HONDA GHAR!" },
+    "shine":  { "tag": "GHAR KE LIYE",  "make": "HONDA", "model": ["SHINE", "DLX"],    "amount": "₹2,100", "suffix": "KI CHHOOT" },
+    "hornet": { "tag": "STYLE KE LIYE", "make": "HONDA", "model": ["CB125", "HORNET"], "amount": "₹4,000", "suffix": "KI CHHOOT" },
+    "gift": "ASSURED GIFT",
+    "cta": "CALL / WHATSAPP NOW",
+    "tnc": "T&C APPLY",
+    "finance": "Finance subject to bank approval."
+  },
+
+  "voiceover": [
+    { "id": "vo1",  "start": 0.10,  "end": 3.05,
+      "subtitle": ["Sirf chaar hazaar nau sau ninyanve rupaye", "down payment mein Honda ghar laayein!"],
+      "tts": "सिर्फ़ चार हज़ार नौ सौ निन्यानवे रुपये डाउन पेमेंट में होंडा घर लाएँ!" },
+    { "id": "vo2a", "start": 3.25,  "end": 6.45,
+      "subtitle": ["Ghar ke liye Shine DLX par", "do hazaar ek sau rupaye ki chhoot."],
+      "tts": "घर के लिए शाइन डी एल एक्स पर दो हज़ार एक सौ रुपये की छूट।" },
+    { "id": "vo2b", "start": 6.60,  "end": 9.85,
+      "subtitle": ["Style ke liye CB125 Hornet par", "chaar hazaar rupaye ki chhoot."],
+      "tts": "स्टाइल के लिए सीबी वन ट्वेंटी फ़ाइव हॉर्नेट पर चार हज़ार रुपये की छूट।" },
+    { "id": "vo3a", "start": 10.02, "end": 11.0,
+      "subtitle": ["Saath mein assured gift!"],
+      "tts": "साथ में अश्योर्ड गिफ़्ट!" },
+    { "id": "vo3b", "start": 11.05, "end": 14.95,
+      "subtitle": ["Abhi call ya WhatsApp karein", "9546036233.", "Auto Scan Honda, Munger."],
+      "tts": "अभी कॉल या व्हाट्सऐप करें, नौ पाँच चार छह ज़ीरो तीन छह दो तीन तीन। ऑटो स्कैन होंडा, मुंगेर।" }
+  ],
+
+  "audio": { "music_bpm": 120, "music_gain_db": -6.0, "duck_db": -11.0, "target_lufs": -14.0 }
+}

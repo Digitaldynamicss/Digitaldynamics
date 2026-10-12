@@ -1,0 +1,3 @@
+__pycache__/
+output/still_*.png
+output/*_video_only.mp4
